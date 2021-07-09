@@ -1,0 +1,28 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ text-align: center;
+}
+h1 {
+ font-size: 2.5rem;
+ text-transform: uppercase;
+}
+.container {
+ /* border: 0.2em solid hsl(0, 0%, 0%); */
+ height: 100vh;
+ padding: 3rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+.colors {
+ text-align: left;
+ max-width: 80%;
+}
+.colors h2 {
+ text-transform: capitalize;
+}
